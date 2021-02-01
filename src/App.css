@@ -1,0 +1,210 @@
+*{
+  background-color: ghostwhite;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.home{
+  margin: 170px 50px 80px;
+  font-size: 30px;
+}
+.producten{
+  margin-top: 160px;
+  margin-bottom: 68px;
+  width:1600px;
+  display: inline-block;
+}
+.producten li{
+  list-style-type: none;
+  color: black;
+  float: left;
+  outline: none;
+  font-size: 20px;
+  width: 33.33333%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 3px;
+  min-height: 250px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+button{
+  font-weight: bold;
+}
+.producten li button{
+  background-color: whitesmoke;
+  padding: 10px 15px;
+  border-radius: 5px;
+  outline: 3px;
+  font-size: 80%;
+  cursor: pointer;
+  box-shadow: 0 2px 2px lightgray;
+  transition: ease background-color 500ms;
+  align-self: end;
+  color: black;
+}
+.producten li button:hover{
+  background-color : darkseagreen;
+  opacity: 1;
+}
+.bestelling{
+  min-width: 820px;
+  min-height: 700px;
+}
+.bestelling li{
+  list-style-type: none;
+  color: black;
+  float: left;
+  outline: none;
+  font-size: 13px;
+  width: 99%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-bottom: 3px;
+  min-height: 30px;
+  border-bottom: 1px solid grey;
+}
+.bestelling label{
+  text-align: left;
+  float: left;
+  padding-left: 30px;
+}
+.bestelling input{
+  float: left;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-confirm {
+  float: right;
+  width: 25%;
+  margin-top: 30px;
+  margin-right: 30px;
+  color:black;
+}
+.winkelmand{
+  min-height: 700px;
+}
+.winkelmand li{
+  list-style-type: none;
+  color: black;
+  float: left;
+  outline: none;
+  font-size: 13px;
+  width: 99%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-bottom: 3px;
+  min-height: 30px;
+  border-bottom: 1px solid grey;
+}
+.eindoverzicht{
+  margin-left: 50px;
+  margin-top: 150px;
+  text-align: left;
+}
+.eindoverzicht p{
+  width: 99%;
+  float: left;
+  min-height: 20px;
+}
+.eindoverzicht li{
+  list-style-type: none;
+  color: black;
+  float: left;
+  outline: none;
+  width: 99%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-bottom: 3px;
+  min-height: 10px;
+  border-bottom: 1px solid grey;
+}
+.eindoverzicht button{
+  float: right;
+  margin: 30px 50px 85px;
+}
+.header{
+  background-color: whitesmoke;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-bottom:2px solid rgba(85, 107, 47, .01);
+  border-radius:4px;
+}
+.header h2{
+  position: relative;
+  background-color: whitesmoke;
+}
+.headerBtn {
+  display: block;
+  background-color: ghostwhite;
+  color: black;
+  float: left;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  width: 33.33333%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.headerBtn:hover {
+  background-color: whitesmoke;
+}
+.footer {
+  height:65px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+}
+.footer a{
+  background-color: whitesmoke;
+  font-size: 18px;
+  width: 33.33333%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: left;
+  outline: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
